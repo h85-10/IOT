@@ -1,0 +1,59 @@
+#iot{
+    font-size:300%;
+   
+  }
+  header{
+  
+    width:100% ;
+    background-color: rgb(175, 120, 120);
+    margin :0;
+    padding :0;
+  }
+  nav{
+   
+    position:fixed;
+    width :200;
+    height:100% ;
+    color:black;
+    font-size:15px;
+    user-select:none;
+      
+    background-color:white;
+    padding: 0 ;
+   top:6px;
+   left:-2px; 
+  
+   justify-content:space-between;
+   line-height:65px;
+  
+  }
+  #ul{
+      list-style-type: none;
+  }
+  
+  
+  
+  p {
+    text-align: justify;
+    
+  }
+  
+  .main-section{
+   width: 700px;
+   margin: 0 auto;
+   padding:0;
+  justify-content:space-between;   
+  }
+  
+  
+  a{
+    color:black;
+     text-decoration:none; 
+      white-space: nowrap;
+    
+          
+  }
+  @media (height:100%){
+    #ul{
+     display: none;
+    }}
